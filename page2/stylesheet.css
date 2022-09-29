@@ -17,3 +17,29 @@ body {
     padding: 20px;
     border: 3px solid #444;
 }
+
+.header-info {
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.header-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+}
+
+.header-text h1 {
+    text-align: center;
+}
+
+.header-text button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.image { width: 350px; }
