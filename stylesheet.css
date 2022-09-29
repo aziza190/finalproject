@@ -7,19 +7,8 @@ body {
     margin: 0 auto;
 }
 
-.box-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-}
-
-.box {
-    padding: 20px;
-    border: 3px solid #444;
-}
-
 .header-info {
-    background-color: #ffffff;
+    background-color: #ddd;
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
@@ -31,34 +20,127 @@ body {
     flex-direction: column;
     padding: 0 40px;
 }
-
 .header-text h1 {
     text-align: center;
 }
-
 .header-text button {
     background-color: green;
     color: white;
     padding: 10px 20px;
     margin-bottom: 10px;
 }
-.image img { width: 350px; }
+
+.image img {
+    width: 350px;
+}
+
 .div-header-box {
     background-color: #222;
     padding: 20px 40px;
-    }
-    .div-header-box h2 {
+}
+.div-header-box h2 {
     color: #fff;
-    }
-    
-    .header-box-container {
+}
+
+.header-box-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
-    }
-    
-    .header-box {
+}
+
+.header-box {
     background-color: #fff;
     padding: 20px;
     border: 3px solid #555;
-    }
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.box {
+    padding: 20px;
+    border: 3px solid #444;
+}
+
+.section-header {
+    margin-top: 10px;
+}
+
+nav {
+    border-bottom: 2px solid #444;
+}
+.upper-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+.upper-links ul li {
+    margin-left: 30px;
+}
+
+.lower-links {
+    padding: 10px;
+    display: flex;
+    background-color: #ddd;
+}
+.nav-logo {
+    width: 33%;
+}
+.nav-logo h2 {
+    padding: 0;
+    margin: 0;
+}
+.nav-links {
+    width: 70%;
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.btn-why-us,
+.btn-order-now {
+    color: white;
+    padding: 4px 8px;
+}
+
+.btn-why-us {
+    background-color: cornflowerblue;
+}
+.btn-order-now {
+    background-color: green;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 92%;
+}
+
+.footer-top {
+    background-color: #ddd;
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: 3fr 2fr 3fr 4fr;
+}
+
+li {
+    list-style: none;
+    line-height: 1.8;
+}
+ul {
+    padding: 0;
+}
+
+.social {
+    display: flex;
+}
+.social li {
+    margin-right: 20px;
+}
